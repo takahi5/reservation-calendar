@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 dayjs.extend(customParseFormat);
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     width: 70,
     height: 40,
     margin: 1,
-    backgroundColor: "#eee",
+    backgroundColor: "#ccc",
     justifyContent: "center",
     alignItems: "center",
   },

@@ -8,6 +8,9 @@ import { Reservation } from "./types/Reservation";
 export default function App() {
   const [reservations, setReservations] = useState<Reservation[]>([]);
 
+  // TODO: 変更できるようにする
+  const fromDay = 20210301;
+
   useEffect(() => {
     const fetch = async () => {
       const _reservations = await fetchReservations();
